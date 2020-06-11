@@ -12,3 +12,6 @@ file_name = "test-{}.html".format(time.strftime("%Y%m%d%H%M%S"))
 # description:测试报告描述可以理解标题
 # log_path:测试报告生成路径
 BeautifulReport(suite).report(filename=file_name, description="测试报告", log_path="./report")
+
+print("-"*100)
+print("增加一行，检查！")
